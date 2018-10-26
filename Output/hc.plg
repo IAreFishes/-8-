@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\灯板（8传感器黑线）\MDK\STM32_3.5MODE.uvproj
+Project File Date:  10/22/2018
+
+<h2>Output:</h2>
+Load "..\\Output\\hc.AXF" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\灯板（8传感器黑线）\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.92 , compiled Sep 30 2014 09:33:42
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "..\\Output\\hc.AXF" 
+Set JLink Project File to "C:\Users\Administrator\Desktop\灯板（8传感器黑线）\MDK\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.92 , compiled Sep 30 2014 09:33:42
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103C8
+* JLink Info: Device "STM32F103C8" selected (64 KB flash, 20 KB RAM).
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.

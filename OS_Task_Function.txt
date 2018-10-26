@@ -1,0 +1,84 @@
+//任务休眠函数  prio 为任务优先级  删除前检查该任务资源是否释放
+//OSTaskDel(prio);
+
+//任务删除请求  用于检查该任务资源是否释放 
+//OSTaskDelReq(prio);
+
+//改变任务优先级函数  
+//OSTaskChangePrio(oldprio, newprio);
+
+//任务挂起函数  区别于任务删除，将任务就绪标志位删除，做任务挂起记录，不需要释放资源
+//OSTaskSuspend(prio);
+
+//任务恢复，将挂起任务恢复
+//OSTaskResume(prio);
+
+//任务信息查询  ,获得任务在OS_TCB中的内容备份
+//OSTaskQuery(prio,OS_TCB *p_task_data);
+
+//进入临界段     //在不希望响应中断的程序中插入临界段
+//OS_ENTER_CRITICAL();
+
+//退出临界段
+//OS_EXIT_CRITICAL();   //开启全局中断
+
+//空闲任务    一个用户运用程序必须使用空闲任务
+//OS_TaskIdle();
+
+//统计任务    OSCPUUsage 用与存放CPU单位时间内使用百分比  
+//用于初始化 统计任务 OSStatInit();
+//OS_TaskStat();
+
+//OS_LOWEST_PRIO+1 可设最低优先级 32
+
+//对调度器加锁   // 用户程序不能被调度 只能运行当前程序  和响应中断
+//OSSchedLock();
+
+//对调度器解锁
+//OSSchedUnlock();
+
+//系统时间
+//OSTimeGet(); OSTimeSet();
+
+//任务延时函数  调用时触发任务调度
+// OSTimeDly();  OSTimeDlyHMSM();
+
+//建立一个信号量
+//OSSemCreate();  //0~65535
+
+//删除一个信号量
+//OSSemDel();
+
+//等待一个信号量
+//OSSemPend();
+
+//发出一个信号量
+//OSSemPost();
+
+//无等待地请求一个信号量
+//OSSemAccept();
+
+//查询一个信号量的当前状态
+//OSSemQuery();
+
+//建立一个互斥型信号量
+//OSMutexCreate();
+
+//删除一个互斥型信号量
+//OSMutexDel();
+
+//等待一个互斥型信号量 挂起
+//OSMutexPend();
+
+//释放一个互斥型信号量
+//OSMutexPost();
+
+//无等待的获取互斥型信号量(任务不挂起)
+//OSMutexAccept();
+
+//获取互斥型信号量的当前状态
+//OSMutexQuery();
+
+//定义信号量
+//OS_EVENT *sign
+
